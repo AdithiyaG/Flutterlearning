@@ -14,20 +14,14 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text(
-          "This is flutter app",
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'DancingScript',
-          ),
+        child: Image(
+          //image: NetworkImage('https://www.kolpaper.com/wp-content/uploads/2020/05/Ariana-Grande-Wallpaper-1.jpg'),
+          image: AssetImage('assets/images/Ariana-Grande-Wallpapers.jpg'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Text("click ME"),
+        child: Text("click"),
         backgroundColor: Colors.red[600],
       ),
     );
